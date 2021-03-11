@@ -65,6 +65,17 @@ const FadeInSection = () => {
 
                 .imageTextWrapper p {
                     color: #a1a1a6;
+                    margin:10px 0px;                }
+                .callToActionWrapper {
+                    animation : fade-in-hero 1.5s ease-out 1.3s 1 forwards;
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                    font-size: 21px;
+                    color: #fff;
+                }
+                .callToActionWrapper p {
+                    margin: 40px 0px 10px 0px;
                 }
                 @keyframes fade-in-hero {
                     to {
@@ -73,7 +84,7 @@ const FadeInSection = () => {
                     }
                 }
             `}</style>
-            <div className="FadeInSectionContainer">
+            <section className="FadeInSectionContainer">
                 <h1 className="h1">MacBook Pro</h1>
                 <h2>Profondément pro.</h2>
                 <p className= 'text'>
@@ -91,7 +102,11 @@ const FadeInSection = () => {
                     <img className='icon'src = "images/hero_icon__gf2ry7i5mt6y_large_2x.jpg"></img>
                     <p>Avec la superpuissance de la puce Apple M1</p>
                 </div>
-            </div>
+                <div className='callToActionWrapper'>
+                    <p>A partir de 1449€</p>
+                    <a>Regarder l'évènement</a>
+                </div>
+            </section>
         </>
     )
 }

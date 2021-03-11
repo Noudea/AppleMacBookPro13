@@ -1,4 +1,4 @@
-const Video = () => {
+const Video = (props) => {
     return(
         <>
         <style jsx>{`
@@ -7,7 +7,7 @@ const Video = () => {
             }
             
             `}</style>
-            <video autoPlay={true} className="video" muted src="/video/small_2x.mp4"></video>
+            <video autoPlay={true} className="video" muted src={props.src}></video>
         </>
     )
 }

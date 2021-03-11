@@ -26,6 +26,7 @@ const NavBar = () => {
                     margin:0px;
                     padding:0 16px;
                     justify-content : space-between;
+                    z-index : 10;
                 }
                 .bottomNavTitle  {
                     color : #fff;
