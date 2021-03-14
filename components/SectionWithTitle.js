@@ -35,13 +35,14 @@ const SectionWithTitle = () => {
                 .headerTitle {
                     margin: 0px;
                     color:#fff;
-                    font-size:48px;
+                    font-size:50px;
                     line-height: 1.08349;
                     letter-spacing: -.003em;
                     font-weight:700;
                 }
                 .text {
-    
+                    color : #a1a1a6;
+                    font-size:23px;
                 }
                 .videoWrapper {
                     width: 800px;

@@ -82,3 +82,11 @@ p{
     color:white;
 }
 
+img {
+    max-width:100%;
+}
+
+:root {
+    --tile-padding: 30px;
+}
+

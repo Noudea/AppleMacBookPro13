@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import CardImgRight from '../components/CardImgRight'
 import FadeInSection from '../components/FadeInSection'
 import NavBar from '../components/navbar'
 import SectionWithTitle from '../components/SectionWithTitle'
@@ -14,7 +15,7 @@ export default function Home() {
                     margin-right: auto;
                     width: 87.5%;
                 }
-                            `}</style>
+            `}</style>
             <Head>
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -40,11 +41,21 @@ export default function Home() {
 
             <main>
                 <NavBar></NavBar>
-                <Video src='/video/small_2x.mp4'></Video>
+                <Video src="/video/small_2x.mp4"></Video>
                 <section className="section">
                     <FadeInSection></FadeInSection>
                 </section>
-                    <SectionWithTitle></SectionWithTitle>
+                <SectionWithTitle></SectionWithTitle>
+                <section className="section">
+                    <CardImgRight
+                        header="CPU"
+                        header2="CPU 8 cœurs"
+                        h2="Une puce épous­touflante."
+                        textContent="La puce M1 confère au MacBook Pro une vitesse et une puissance vertigineuses. Son processeur central huit cœurs s’acquitte facilement des flux de production complexes et des charges de travail les plus lourdes en affichant des performances de traitement jusqu’à 2,8 fois plus rapides que celles de la génération précédente"
+                        imgSrc = '/images/processor__t4s51e0n7giy_small_2x.png'
+                        buttonTextContent = 'Voir comment la puce M1 redéfinit la notion de vitesse'
+                    ></CardImgRight>
+                </section>
             </main>
 
             <footer className={styles.footer}>

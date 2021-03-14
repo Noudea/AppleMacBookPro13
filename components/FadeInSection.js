@@ -42,7 +42,7 @@ const FadeInSection = () => {
                     text-align: center;
                     margin-left: auto;
                     margin-right: auto;
-                    font-size: 24px;
+                    font-size: 23px;
                     line-height: 1.33341;
                     font-weight: 500;
                     letter-spacing: 0.009em;
@@ -51,7 +51,7 @@ const FadeInSection = () => {
                 .imageTextWrapper {
                     margin-top:38px;
                     animation : fade-in-hero 1.5s ease-out 1.1s 1 forwards;
-                    font-size:21px;
+                    font-size:23px;
                     display:flex;
                     align-items:center;
                     flex-direction: column;
